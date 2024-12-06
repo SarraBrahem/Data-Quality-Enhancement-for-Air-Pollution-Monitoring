@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_5CNb8JtWEe-aueYMroKEVg" name="test_data_s5" dataPackage="_5CNb8ZtWEe-aueYMroKEVg _f9ouwJtXEe-aueYMroKEVg" Server="Localhost 127.0.0.1" FilePath="C:/Users/mahdj/Downloads/Données.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="s5" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="s5:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_5CNb8ZtWEe-aueYMroKEVg" name="default" dataManager="_5CNb8JtWEe-aueYMroKEVg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_5CNb8ptWEe-aueYMroKEVg" id="_ne258JtWEe-aueYMroKEVg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GW-WQJtaEe-aueYMroKEVg" label="ID_Polluant" length="4" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GW-WQZtaEe-aueYMroKEVg" label="Date" length="34" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GW-WQptaEe-aueYMroKEVg" label="ID_Capteur" length="8" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GW-WQ5taEe-aueYMroKEVg" label="Localisation" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GW-WRJtaEe-aueYMroKEVg" label="Taux_Releve" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_f9ouwJtXEe-aueYMroKEVg" name="default" dataManager="_5CNb8JtWEe-aueYMroKEVg"/>
+</xmi:XMI>

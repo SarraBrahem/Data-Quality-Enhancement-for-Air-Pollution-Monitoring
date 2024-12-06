@@ -1,0 +1,12 @@
+ID_Polluant,Ville,NBC
+PM10,Paris,4
+NO2,Paris,4
+O3,Versailles,1
+NO2,,3
+PM10,Boulogne-Billancourt,1
+CO,Paris,2
+O3,Boulogne-Billancourt,1
+O3,,1
+O3,,1
+O3,Paris,1
+PM10,,1

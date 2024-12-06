@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_zwnGwaD5Ee--Zoa4yCaGvA" name="GeoLocation" id="_zwnGwKD5Ee--Zoa4yCaGvA" dataPackage="_zwnGwqD5Ee--Zoa4yCaGvA" Server="Localhost 127.0.0.1" FilePath="C:/Users/mahdj/Downloads/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/QDD/data/GeoLocalisation.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" LimitValue="0" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_zwnGwqD5Ee--Zoa4yCaGvA" name="default" dataManager="_zwnGwaD5Ee--Zoa4yCaGvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_zwnGw6D5Ee--Zoa4yCaGvA" id="_v5mY8KD5Ee--Zoa4yCaGvA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NefKcKELEe-vuJv3txZMYA" label="Vile" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NefKcaELEe-vuJv3txZMYA" label="Lat" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NefKcqELEe-vuJv3txZMYA" label="Lon" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_NefKc6ELEe-vuJv3txZMYA" label="County" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

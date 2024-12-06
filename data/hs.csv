@@ -1,0 +1,6 @@
+ID_Polluant,taux_moyen_jour,NBS,NBC,status
+PM10,0.1,0,1,Normal
+PM10,1827.6875,4,0,Alerte_pollution
+O3,0.087,0,1,Normal
+O3,41.57,1,0,Normal
+NO2,2748.7466,4,0,Alerte_pollution

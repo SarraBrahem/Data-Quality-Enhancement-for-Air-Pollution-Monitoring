@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_d6-3QKD5Ee--Zoa4yCaGvA" name="NBS" dataPackage="_d6-3QaD5Ee--Zoa4yCaGvA" Server="Localhost 127.0.0.1" FilePath="C:/Users/mahdj/Downloads/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/QDD/data/NBS.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_d6-3QaD5Ee--Zoa4yCaGvA" name="default" dataManager="_d6-3QKD5Ee--Zoa4yCaGvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_d6-3QqD5Ee--Zoa4yCaGvA" id="_ZGRLEKD5Ee--Zoa4yCaGvA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d6-3Q6D5Ee--Zoa4yCaGvA" label="ID_Polluant" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d6-3RKD5Ee--Zoa4yCaGvA" label="NBS" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_d6-3RaD5Ee--Zoa4yCaGvA" label="Ville" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

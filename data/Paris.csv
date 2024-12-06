@@ -1,0 +1,5 @@
+ID_Polluant,taux_moyen_jour,NBS,NBC,status
+NO2,44.198746,0,4,Normal
+PM10,25.563667,0,4,Normal
+CO,4027.335,2,2,Normal
+O3,38.0,0,1,Normal

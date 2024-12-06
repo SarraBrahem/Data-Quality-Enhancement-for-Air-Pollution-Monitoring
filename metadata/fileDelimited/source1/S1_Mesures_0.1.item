@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_ANvjwIZJEe-fP4J8ddgj9Q" name="S1_Mesures" id="_ANqEMIZJEe-fP4J8ddgj9Q" dataPackage="_AN1DUIZJEe-fP4J8ddgj9Q" Server="Localhost 127.0.0.1" FilePath="D:/Study/DataScale/quality des donnes/sources/s1_mesures.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_AN1DUIZJEe-fP4J8ddgj9Q" name="default" dataManager="_ANvjwIZJEe-fP4J8ddgj9Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_AN1DUYZJEe-fP4J8ddgj9Q" id="_2c1DUIZIEe-fP4J8ddgj9Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AN1DUoZJEe-fP4J8ddgj9Q" label="ID_Polluant" length="4" talendType="id_String" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AN1DU4ZJEe-fP4J8ddgj9Q" label="Date" length="10" talendType="id_Date" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AN1DVIZJEe-fP4J8ddgj9Q" label="ID_Station" length="1" talendType="id_Integer" key="true" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_AN1DVYZJEe-fP4J8ddgj9Q" label="Taux_releve" length="5" precision="3" talendType="id_Float" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

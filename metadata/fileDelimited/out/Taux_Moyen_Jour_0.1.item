@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_q46GQaD5Ee--Zoa4yCaGvA" name="Taux_Moyen_Jour" dataPackage="_q46GQqD5Ee--Zoa4yCaGvA _fJSwkKEREe-vuJv3txZMYA" Server="Localhost 127.0.0.1" FilePath="C:/Users/mahdj/Downloads/TOS_DI-20211109_1610-V8.0.1/TOS_DI-20211109_1610-V8.0.1/workspace/QDD/data/TauxMoyen.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_q46GQqD5Ee--Zoa4yCaGvA" name="default" dataManager="_q46GQaD5Ee--Zoa4yCaGvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_q46GQ6D5Ee--Zoa4yCaGvA" id="_ksVPQKD5Ee--Zoa4yCaGvA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gm-2kKEREe-vuJv3txZMYA" label="ID_Polluant" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gm-2kaEREe-vuJv3txZMYA" label="taux_moyen_jour" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gm-2kqEREe-vuJv3txZMYA" label="Ville" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_gm-2k6EREe-vuJv3txZMYA" label="status" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_fJSwkKEREe-vuJv3txZMYA" name="default" dataManager="_q46GQaD5Ee--Zoa4yCaGvA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_fJSwkaEREe-vuJv3txZMYA" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_eBBg8KEREe-vuJv3txZMYA" label="metadata1">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJSwkqEREe-vuJv3txZMYA" label="ID_Polluant" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJSwk6EREe-vuJv3txZMYA" label="taux_moyen_jour" length="9" precision="7" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJSwlKEREe-vuJv3txZMYA" label="Ville" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_fJSwlaEREe-vuJv3txZMYA" label="status" length="16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
